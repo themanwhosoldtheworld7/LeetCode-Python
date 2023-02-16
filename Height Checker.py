@@ -15,5 +15,4 @@ class Solution:
         for i in range(len(heights)):
             if expected[i] != heights[i]:
                 count+=1
-        return count
-        
+        return count        

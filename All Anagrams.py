@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:16:57 2023
 
 https://leetcode.com/problems/find-all-anagrams-in-a-string/
 """
-
 class Solution:
     def findAnagrams(self, s: str, p: str) -> list[int]:
         n=len(s)

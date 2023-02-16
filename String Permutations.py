@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:20:50 2023
 
 https://leetcode.com/problems/permutation-in-string/
 """
-
 class Solution:
     def checkInclusion(self, s1: str, s2: str) -> bool:
         n, m = len(s1), len(s2)

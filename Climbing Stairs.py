@@ -9,7 +9,6 @@ https://leetcode.com/problems/climbing-stairs/
 
 https://leetcode.com/problems/fibonacci-number/
 """
-
 class Solution:
     def climbStairs(self, n):           
         if n in [0,1]: return 1

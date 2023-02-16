@@ -12,19 +12,18 @@ class Solution:
     def lengthOfLongestSubstring(self, s: str) -> int:
         
         location = {}
-        maxlength = 0
-        length = 0
-        maxlength = 0
-        
-        for i in range(len(s)):
+        count    = 0
+        maxcount = 0
+        i = 0
+        while i < len(s):
             try:
-                l = location[s[i]]
-                maxlength = max(length, maxlength)
-                length = i - l
-                location[s[i]]=i
-                
+                    l = location[s[i]]
+                    maxcount = max(count, maxcount)
+                    count = 0
+                    i = l+1
+                    location = {}
             except:
                 location[s[i]] = i
-                length+=1
-        
-        return max(length, maxlength)
+                count+=1
+                i+=1
+        return max(count, maxcount)

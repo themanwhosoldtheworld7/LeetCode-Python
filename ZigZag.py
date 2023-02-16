@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:30:56 2023
 
 https://leetcode.com/problems/zigzag-conversion/
 """
-
 class Solution:
     def convert(self, s: str, numRows: int) -> str:
         

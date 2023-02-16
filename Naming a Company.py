@@ -7,7 +7,6 @@ Created on Tue Feb 14 21:57:40 2023
 
 https://leetcode.com/problems/naming-a-company/
 """
-
 class Solution:
     def distinctNames(self, ideas: list[str]) -> int:
         # Group strings by their initials

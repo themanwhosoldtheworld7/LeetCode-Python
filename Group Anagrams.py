@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:21:41 2023
 
 https://leetcode.com/problems/group-anagrams/
 """
-
 class Solution:
     def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
 
@@ -19,8 +18,6 @@ class Solution:
                 result[ss].append(s)
             except:
                 result[ss] = [s]
-                
-        result = list(result.values())
-        
+        result = list(result.values())        
         return result
 

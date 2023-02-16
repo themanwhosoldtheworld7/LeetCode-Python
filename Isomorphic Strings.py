@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:00:24 2023
 
 https://leetcode.com/problems/isomorphic-strings/
 """
-
 class Solution:
     def isIsomorphic(self, s: str, t: str) -> bool:
         d1 = {}

@@ -24,5 +24,4 @@ class Solution:
 
             result += str(carry %2)
             carry //= 2
-
         return result[::-1]

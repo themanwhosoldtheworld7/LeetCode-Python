@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:19:03 2023
 
 https://leetcode.com/problems/sqrtx/
 """
-
 class Solution:
     def mySqrt(self, x: int) -> int:
         low=0

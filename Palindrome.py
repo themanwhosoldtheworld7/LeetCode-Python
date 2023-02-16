@@ -11,6 +11,11 @@ https://leetcode.com/problems/palindrome-number/
 class Solution:
     def isPalindrome(self, x: int) -> bool:
         y = x
+        if x<0:
+            return False
+        
+        if x>=0 and x<10:
+            return True
         num = 0
         multiplier = 10
         

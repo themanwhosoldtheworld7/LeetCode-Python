@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:09:44 2023
 
 https://leetcode.com/problems/shuffle-the-array/
 """
-
 class Solution:
     def shuffle(self, nums: list[int], n: int) -> list[int]:
         result = []

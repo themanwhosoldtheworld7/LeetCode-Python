@@ -8,8 +8,6 @@ Created on Tue Feb 14 22:47:22 2023
 https://leetcode.com/problems/detect-capital/
 """
 
-
-
 class Solution:
     def detectCapitalUse(self, word: str) -> bool:
         if word.isupper() == True:

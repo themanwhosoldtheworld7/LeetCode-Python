@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:27:34 2023
 
 https://leetcode.com/problems/plus-one/
 """
-
 class Solution:
     def plusOne(self, digits: list[int]) -> list[int]:
         if digits[len(digits)-1] !=9:

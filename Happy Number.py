@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:08:15 2023
 
 https://leetcode.com/problems/happy-number/
 """
-
 class Solution:
     def isHappy(self, n: int) -> bool:
         if n ==1: return True

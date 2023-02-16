@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:05:17 2023
 
 https://leetcode.com/problems/jump-game-ii/
 """
-
 class Solution:
     def jump(self, nums: list[int]) -> int:
         N = len(nums)
@@ -18,5 +17,4 @@ class Solution:
             for j in range (1, min(nums[i]+1,N)):
                 if i + j < N:
                     Solutions[i] = min (Solutions[i], Solutions[i+j]+1)
-                        
         return Solutions[0]

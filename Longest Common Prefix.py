@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:29:31 2023
 
 https://leetcode.com/problems/longest-common-prefix/
 """
-
 class Solution:
     def longestCommonPrefix(self, strs: list[str]) -> str:
         

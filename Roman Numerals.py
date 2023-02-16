@@ -54,4 +54,4 @@ class Solution:
             i-=1
             ar = self.R2E [s[i]] if self.R2E[s[i]] >= ar else -self.R2E[s[i]]
             arabic = arabic+ar
-        return arabic
+        return arabis

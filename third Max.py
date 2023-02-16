@@ -30,5 +30,4 @@ class Solution:
 
         if len(largest)<3:
             return largest[-1]
-        return largest[0]
-        
+        return largest[0]        

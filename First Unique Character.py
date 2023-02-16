@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:04:01 2023
 
 https://leetcode.com/problems/first-unique-character-in-a-string/
 """
-
 class Solution:
     def firstUniqChar(self, s: str) -> int:
         if len(s)==1:

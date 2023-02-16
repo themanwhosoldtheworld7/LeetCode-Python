@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:28:57 2023
 
 https://leetcode.com/problems/length-of-last-word/
 """
-
 class Solution:
     def lengthOfLastWord(self, s: str) -> int:
         s = s.strip()

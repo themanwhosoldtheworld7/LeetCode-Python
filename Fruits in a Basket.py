@@ -7,7 +7,6 @@ Created on Tue Feb 14 22:06:35 2023
 
 https://leetcode.com/problems/fruit-into-baskets/
 """
-
 class Solution:
     def totalFruit(self, fruits: list[int]) -> int:
         
