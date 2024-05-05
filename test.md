@@ -20,7 +20,7 @@ $$
 
 Where:
 
-- \(S_t\): the stock price at time \(t\),
+- $\(S_t\)$: the stock price at time \(t\),
 - \(\mu\): the drift coefficient representing the expected return,
 - \(\sigma\): the volatility coefficient,
 - \(dW_t\): the increment of a Wiener process (standard Brownian motion), which introduces the random variation.
